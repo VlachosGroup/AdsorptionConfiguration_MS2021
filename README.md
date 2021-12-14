@@ -1,6 +1,6 @@
 AdsorptionConfiguration_MS2021
 =========================================
-In hope to understand the conversion of large adsorbates, we develop overall framework for the enumeration large adsorbate configurations. This work contains the DFT data for related manuscript to be submitted.
+In hope to understand the conversion of large molecules, we develop a framework for the enumeration of large adsorbate configurations. This work contains the DFT data for the related manuscript to be submitted.
 
 Guide
 -----

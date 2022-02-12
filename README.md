@@ -17,6 +17,10 @@ Enumeration Code
 ----------------
 The codes are in enumeration folder, with the precalculated output in enumeration/Output folder. The code needs to be executed in the order of first digit in file name. 
 
+Fingerprint-like descriptor-based logistic regression
+-----------------------------------------------------
+The codes are in FLDLR folder, with the precalculated output in FLDLR/Output folder. "1MLTrain.py" trains the FLDLR model, and "2MLScreen.py" make model predictions.
+
 
 Publications
 ------------

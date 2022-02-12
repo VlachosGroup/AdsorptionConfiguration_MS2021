@@ -79,14 +79,14 @@ def AddMeats(smiles):
 
 if __name__ == '__main__':
 
-    inputpath ='./Output/1Skeleton1.json'
-    outputpath = './Output/Size1.json'
+    # inputpath ='./Output/1Skeleton1.json'
+    # outputpath = './Output/Size1.json'
     
     # inputpath ='./Output/1Skeleton2.json'
     # outputpath = './Output/Size2.json'
 
-    # inputpath ='./Output/4Skeleton3Good.json'
-    # outputpath = './Output/Size3.json'
+    inputpath ='./Output/4Skeleton3Good.json'
+    outputpath = './Output/Size3.json'
     
 
 

@@ -2,6 +2,12 @@ AdsorptionConfiguration_MS2021
 =========================================
 In hope to understand the conversion of large molecules, we develop a framework for the enumeration of large adsorbate configurations. This repository contains the DFT data and enumeration code for the related work.
 
+Installation
+------------
+You can simply clone this repository
+
+```git clone https://github.com/VlachosGroup/AdsorptionConfiguration_MS2021```
+
 Data Guide
 ----------
 The json file contains stable configurations with keys:
@@ -15,11 +21,11 @@ The json file contains stable configurations with keys:
 
 Enumeration Code
 ----------------
-The codes are in enumeration folder, with the precalculated output in enumeration/Output folder. The code needs to be executed in the order of first digit in file name. 
+The codes are in enumeration folder, with an example output in enumeration/Output folder. The code needs to be executed in the order of first digit in file name. The enumeration time for smaller molecules are fast, but starts take several hours for 4 heteroatom molecules. As the data size get large for larger molecules, we included the result for <4 heteroatoms.
 
 Fingerprint-like descriptor-based logistic regression
 -----------------------------------------------------
-The codes are in FLDLR folder, with the precalculated output in FLDLR/Output folder. "1MLTrain.py" trains the FLDLR model, and "2MLScreen.py" make model predictions.
+The codes are in FLDLR folder, with an example output in FLDLR/Output folder. "1MLTrain.py" trains the FLDLR model, and "2MLScreen.py" make model predictions. The training and prediction time for smaller molecules are fast, but starts take several hours for 4 heteroatom molecules. As the data size get large for larger molecules, we included the result for <4 heteroatoms.
 
 Dependencies
 ------------

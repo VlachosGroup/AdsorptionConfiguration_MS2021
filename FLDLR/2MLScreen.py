@@ -5,20 +5,12 @@ Created on Tue Feb 23 15:40:53 2021
 @author: user
 """
 import json
-from collections import defaultdict
 from rdkit import Chem
 import numpy as np
 from tqdm import tqdm
 import itertools
-from itertools import cycle
 
-import json
-import os
-import matplotlib.pyplot as plt
-from glob import glob
 import pickle
-from util import RemoveHe, GetBondListFromAtomList, \
-    RemoveLatticeAmbiguity, GetGasMolFromSmiles
 from util import GetGraphDescriptors
 from util import SurfHelper
 from rdkit import RDLogger

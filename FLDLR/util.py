@@ -3,6 +3,8 @@ import numpy as np
 from rdkit.Chem import rdqueries
 from ase.data import atomic_numbers
 from collections import defaultdict
+from ase import Atoms as ASEAtoms
+from ase import Atom as ASEAtom
 
 SurfaceElements = ('Ag','Au','Co','Cu','Fe','Ir','Ni','Pd','Pt','Re','Rh','Ru')
 SurfaceAtomicNumbers = tuple([0]+[atomic_numbers[s] for s in SurfaceElements])

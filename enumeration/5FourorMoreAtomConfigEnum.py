@@ -5,7 +5,6 @@ Created on Tue Feb 20 11:57:31 2018
 @author: Gu
 """
 import json
-import numpy as np
 from rdkit import Chem
 from util import SurfHelper, SetUpReaction, RemoveLatticeAmbiguity, CheckConfig,\
     BridgeRule, SetUpRingReaction, CleanUp
@@ -14,7 +13,6 @@ import pandas
 import time
 import datetime
 import timeit
-import sys
 from rdkit import RDLogger
 RDLogger.DisableLog('rdApp.*')       
 Chem.SetDefaultPickleProperties(Chem.PropertyPickleOptions.AllProps)

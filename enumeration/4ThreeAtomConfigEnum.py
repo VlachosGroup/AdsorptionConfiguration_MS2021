@@ -5,12 +5,10 @@ Created on Tue Feb 20 11:57:31 2018
 @author: Gu
 """
 import json
-import numpy as np
 from rdkit import Chem
-from itertools import combinations
 import timeit
 from util import SurfHelper, SetUpReaction, RemoveLatticeAmbiguity, CheckConfig,\
-    SetUpConstraintMol, BridgeRule, SetUpRingReaction, CleanUp
+   BridgeRule, SetUpRingReaction, CleanUp
 from tqdm import tqdm
 import time
 import datetime

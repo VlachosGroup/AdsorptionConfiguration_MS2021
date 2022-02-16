@@ -21,6 +21,15 @@ Fingerprint-like descriptor-based logistic regression
 -----------------------------------------------------
 The codes are in FLDLR folder, with the precalculated output in FLDLR/Output folder. "1MLTrain.py" trains the FLDLR model, and "2MLScreen.py" make model predictions.
 
+Dependencies
+------------
+- Numpy (1.19.5 tested)
+- rdkit (2020.03.2 tested)
+- Atomic Simulation Environment (3.20.1 tested)
+- scipy (1.5.2 tested)
+- sklearn (0.23.2 tested)
+- tqdm (4.50.2 tested)
+- pandas (1.1.3 tested)
 
 Publications
 ------------
